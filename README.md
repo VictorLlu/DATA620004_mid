@@ -4,20 +4,22 @@ The code for the first part is in `mmclassification` and the code for the second
 Please first install `mmcv`, `mmcls` and `mmdet` according to [🛠️ mmcls](https://mmclassification.readthedocs.io/en/latest/install.html) and [🛠️mmdet](https://mmdetection.readthedocs.io/en/v2.21.0/get_started.html).
 
 ## Classification
-The config files for baseline, cutout, mixup and cutmix are shown in the following table.
+The config files for baseline, cutout, mixup and cutmix are shown in the following table. 
+Password for baidu yun is 6p6i.
+Please find the model checkpoint and log with the same name as config.
 |   Model         | config name  | Download |
 |:---------------:|:-----------:|:---------:|
-| Baseline  | [resnet18_2xb64_cifar100](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmclassification/configs/resnet/resnet18_2xb64_cifar100.py) | model &#124; log|
-|Cutout | [resnet18_2xb64_cutout_cifar100](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmclassification/configs/resnet/resnet18_2xb64_cutout_cifar100.py) | model &#124; log|
-|Mixup | [resnet18_2xb64_mixup_cifar100](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmclassification/configs/resnet/resnet18_2xb64_mixup_cifar100.py) | model &#124; log|
-|Cutmix | [resnet18_2xb64_cutmix_cifar100](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmclassification/configs/resnet/resnet18_2xb64_cutmix_cifar100.py)| model &#124; log|
+| Baseline  | [resnet18_2xb64_cifar100](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmclassification/configs/resnet/resnet18_2xb64_cifar100.py) | [model](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ) &#124; [log](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ)|
+|Cutout | [resnet18_2xb64_cutout_cifar100](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmclassification/configs/resnet/resnet18_2xb64_cutout_cifar100.py) | [model](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ) &#124; [log](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ)|
+|Mixup | [resnet18_2xb64_mixup_cifar100](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmclassification/configs/resnet/resnet18_2xb64_mixup_cifar100.py) | [model](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ) &#124; [log](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ)|
+|Cutmix | [resnet18_2xb64_cutmix_cifar100](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmclassification/configs/resnet/resnet18_2xb64_cutmix_cifar100.py)| [model](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ) &#124; [log](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ)|
 
 ## Detection
 The config files for faster R-CNN and YOLOv3 are shown in the following table.
 |   Model         | config name  | Download |
 |:---------------:|:-----------:|:---------:|
-| Faster R-CNN  | [faster_rcnn_r50_fpn_1x_voc0712](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmdetection/configs/pascal_voc/faster_rcnn_r50_fpn_1x_voc0712.py) | model &#124; log|
-|Cutout | [yolov3_mobilenetv2_320_300e_voc0712](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmdetection/configs/pascal_voc/yolov3_mobilenetv2_320_300e_voc0712.py) | model &#124; log|
+| Faster R-CNN  | [faster_rcnn_r50_fpn_1x_voc0712](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmdetection/configs/pascal_voc/faster_rcnn_r50_fpn_1x_voc0712.py) | [model](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ) &#124; [log](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ)|
+|Cutout | [yolov3_mobilenetv2_320_300e_voc0712](https://github.com/VictorLlu/DATA620004_mid/blob/b82cd5958fbebcedb8179f1854639230320c59b7/mmdetection/configs/pascal_voc/yolov3_mobilenetv2_320_300e_voc0712.py) | [model](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ) &#124; [log](https://pan.baidu.com/s/1xSORdAJLN0k3O7GpfLSZKQ) |
 
 ## Training
 please first shift to the mmclassifcation or mmdetection and then run 

@@ -8,7 +8,7 @@ model = dict(head=dict(num_classes=100))
 policies = [dict(
         type='Cutout',
         magnitude_key='shape',
-        magnitude_range=(1, 6),
+        magnitude_range=(1, 10),
         pad_val=0,
         prob=1.0)]
 

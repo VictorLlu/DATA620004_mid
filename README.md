@@ -3,7 +3,7 @@ The homework consists of three parts -- inference on a segmentation model, train
 
 ## Different pretrain backbones of Faster R-CNN
 Results for three kinds of pretrain backbones, as well as the config files, model and log.
-Password of Baidu Cloud is e32o.
+Password of Baidu Cloud is **e32o**.
 Please find the model checkpoint and log with the same name as config.
 |   Pretrain        | Config name | mAP | Download |
 |:---------------:|:-----------:|:-----------:|:---------:|
